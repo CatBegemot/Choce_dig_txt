@@ -7,9 +7,9 @@ function changeSrc() {
   }
   
 //function changeSrc() {
-      if (imgChoice.src.includes(imgPath + "dig1.png")) {
-        imgChoice.src = imgPath + "dig2.png";
-    } else {
-        imgChoice.src = imgPath + "dig1.png";
-    }
-    }
+//      if (imgChoice.src.includes(imgPath + "dig1.png")) {
+//       imgChoice.src = imgPath + "dig2.png";
+//    } else {
+//       imgChoice.src = imgPath + "dig1.png";
+//    }
+//    }
