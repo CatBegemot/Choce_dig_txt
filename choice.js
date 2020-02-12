@@ -68,7 +68,7 @@ document.body.appendChild(divMain);
     textBegin.style.color = "darkblue";
     textBegin.innerHTML = "Number";
 
-    textBegin.onclick = function() {changeTxt()}; 
+  //  textBegin.onclick = function() {changeTxt()}; 
 
 var divRight = document.createElement("div");
 divRight.id = "divRight";
