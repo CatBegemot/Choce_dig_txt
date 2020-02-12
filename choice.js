@@ -53,7 +53,7 @@ document.body.appendChild(divMain);
     imgChoice.style.top = "10%";
     imgChoice.src = imgPath + "dig1.png";
 
-    //imgChoice.onclick = function() {changeSrc()};
+    imgChoice.onclick = function() {changeSrc()};
 
   var textBegin = document.createElement("p");
     textBegin.id = "textBegin";
@@ -68,7 +68,7 @@ document.body.appendChild(divMain);
     textBegin.style.color = "darkblue";
     textBegin.innerHTML = "Number";
 
-    textBegin.onclick = function() {changeSrc()}; 
+    textBegin.onclick = function() {changeTxt()}; 
 
 var divRight = document.createElement("div");
 divRight.id = "divRight";
